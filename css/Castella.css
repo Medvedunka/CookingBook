@@ -1,0 +1,32 @@
+html   {
+    text-align: center;
+    background: linear-gradient(rgb(172, 44, 108), rgb(170, 79, 37));
+
+}
+
+.container{
+    border: 8px solid black;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.image{
+    border: 8px double whitesmoke;
+}
+
+.description{
+    border: 8px double whitesmoke;
+    font-size: large;
+}
+
+.ingridients{
+    border: 8px double whitesmoke;
+    font-size: large;
+}
+
+.recipe{
+    border: 8px double whitesmoke;
+    font-size: large;
+}
