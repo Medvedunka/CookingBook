@@ -2,6 +2,45 @@ body{
     background: linear-gradient(rgb(170, 79, 37),rgb(175, 141, 28));
 }
 
-.img{
-    border: double white 8px;
+img{
+    height: 350px;
+    width: 500px;
+    border: double 8px whitesmoke;
+}
+
+.flexContainer1{
+    display: flex;
+}
+
+.flexContainer1 div{
+    height: 350px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flexContainer2{
+    display: flex;
+}
+
+.flexContainer2 div{
+    width: 350px;
+    margin-left: 692px;
+}
+
+.gif{
+    align-self: center;
+    height: 350px;
+    width: 500px;
+}
+
+.flexContainer3{
+    display: flex;
+}
+
+.flexContainer3 div{
+    height: 350px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
