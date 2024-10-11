@@ -1,3 +1,7 @@
 body{
-    background-color: brown;
+    background: linear-gradient(rgb(170, 79, 37),rgb(175, 141, 28));
+}
+
+.img{
+    border: double white 8px;
 }

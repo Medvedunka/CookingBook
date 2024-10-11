@@ -1,7 +1,6 @@
-html   {
+body{
     text-align: center;
-    background: linear-gradient(rgb(172, 44, 108), rgb(170, 79, 37));
-
+    background: linear-gradient(rgb(170, 79, 37),rgb(175, 141, 28));
 }
 
 .container{

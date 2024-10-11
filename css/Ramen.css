@@ -1,7 +1,6 @@
-html   {
+body{
     text-align: center;
-    background: linear-gradient(rgb(172, 44, 108), rgb(170, 79, 37));
-
+    background: linear-gradient(rgb(170, 79, 37),rgb(175, 141, 28));
 }
 
 .container{
@@ -10,23 +9,33 @@ html   {
     margin-right: 350px;
     margin-top: 100px;
     margin-bottom: 100px;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .image{
     border: 8px double whitesmoke;
 }
 
+img{
+    height: auto;
+    width: 300px;
+}
+
 .description{
     border: 8px double whitesmoke;
     font-size: large;
+    color: whitesmoke;
 }
 
 .ingridients{
     border: 8px double whitesmoke;
     font-size: large;
+    color: whitesmoke;
 }
 
 .recipe{
     border: 8px double whitesmoke;
     font-size: large;
+    color: whitesmoke;
 }
