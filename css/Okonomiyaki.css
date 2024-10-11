@@ -1,31 +1,155 @@
 body{
-    text-align: center;
-    background: linear-gradient(rgb(170, 79, 37),rgb(175, 141, 28));
+    background: linear-gradient(#f49f0b, #c3594f, #613a4b);
 }
 
 .container{
-    border: 8px solid black;
-    margin-left: 350px;
-    margin-right: 350px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(29, 29, 29);
+    border: 8px double whitesmoke;
+}
+
+img{
+    height: 330px;
+    width: 830px;
+    background-color: black;
 }
 
 .image{
-    border: 8px double whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.name{
+    margin: 0 250px 0;
+    width: 110px;
+      height: 56px;
+      box-sizing: content-box;
+      padding-top: 15px;
+      position: relative;
+      background: white;
+      color: rgb(29, 29, 29);
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      text-align: center;
+      text-transform: uppercase;
+}
+
+.name::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 13px solid rgb(29, 29, 29);
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
 }
 
 .description{
-    border: 8px double whitesmoke;
     font-size: large;
+    color: whitesmoke;
+    background-color: rgb(29, 29, 29);
+    padding:0 70px 0;
+}
+
+.ingridientsText{
+    text-align: center;
+    color: rgb(29, 29, 29);
+    background-color: white;
+    width: 630px;
+    height: 40px;
+    position: relative;
+}
+
+.ingridientsText::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.ingridientsText::before{
+    content: "";
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid white;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
 }
 
 .ingridients{
-    border: 8px double whitesmoke;
     font-size: large;
+    color: whitesmoke;
+    background-color: rgb(29, 29, 29);
+    padding:0 70px 0;
+}
+
+.recipeText{
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(29, 29, 29);
+    background-color: white;
+    width: 630px;
+    height: 40px;
+    position: relative;
+}
+
+.recipeText::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.recipeText::before{
+    content: "";
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid white;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
 }
 
 .recipe{
-    border: 8px double whitesmoke;
+    margin-top: -10px;
     font-size: large;
+    color: whitesmoke;
+    background-color: rgb(29, 29, 29);
+    padding:0 70px 0;
+}
+
+h3{
+    padding-left: 40px;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    border-radius: 50%;
+    position: fixed;
+            top: 10px;
+            left: 10px;
 }

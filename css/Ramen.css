@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(rgb(170, 79, 37),rgb(175, 141, 28));
+    background: linear-gradient(#f49f0b, #c3594f, #613a4b);
 }
 
 .container{
@@ -61,10 +61,9 @@ img{
     text-align: center;
     color: rgb(29, 29, 29);
     background-color: white;
-    width: 500px;
+    width: 630px;
     height: 40px;
     position: relative;
-    margin-left: 42px;
 }
 
 .ingridientsText::after{
@@ -103,10 +102,9 @@ img{
     text-align: center;
     color: rgb(29, 29, 29);
     background-color: white;
-    width: 500px;
+    width: 630px;
     height: 40px;
     position: relative;
-    margin-left: 42px;
 }
 
 .recipeText::after{
@@ -126,7 +124,8 @@ img{
   position: absolute;
   right: -20px;
   bottom: 0;
-  width: 0;
+  width: 0;    background: linear-gradient(#f49f0b, #c3594f, #613a4b);
+
   height: 0;
   border-left: 20px solid white;
   border-top: 20px solid transparent;
@@ -143,4 +142,15 @@ img{
 
 h3{
     padding-left: 40px;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    border-radius: 50%;
+    position: fixed;
+            top: 10px;
+            left: 10px;
 }
