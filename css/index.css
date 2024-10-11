@@ -3,9 +3,24 @@ body{
 }
 
 img{
-    height: 350px;
+    height: 300px;
     width: 500px;
-    border: double 8px whitesmoke;
+}
+
+#okonomiyaki{
+    border: 10px groove rgb(49, 49, 49);
+}
+
+#ramen{
+    border: 10px groove rgb(49, 49, 49);
+}
+
+#castella{
+    border: 10px groove rgb(49, 49, 49);
+}
+
+#onigiri{
+    border: 10px groove rgb(49, 49, 49);
 }
 
 .flexContainer1{
@@ -13,7 +28,7 @@ img{
 }
 
 .flexContainer1 div{
-    height: 350px;
+    height: 300px;
     width: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -24,8 +39,11 @@ img{
 }
 
 .flexContainer2 div{
-    width: 350px;
+    width: 500px;
+    height: 300px;
     margin-left: 692px;
+    border: double 8px whitesmoke;
+
 }
 
 .gif{
@@ -39,7 +57,7 @@ img{
 }
 
 .flexContainer3 div{
-    height: 350px;
+    height: 300px;
     width: 500px;
     margin-left: auto;
     margin-right: auto;
